@@ -3,13 +3,13 @@ os.environ["OPENAI_API_KEY"] = 'sk-JskPnY206wCRDDZE3xipT3BlbkFJ4aP5DxHZ1xi4koPen
 
 
 import streamlit as st
-import random
-import time
+# import random
+# import time
 from engine import Engine
 
-# Tracking with ClearML
-from clearml import Task
-task = Task.init(project_name='Face Makeup', task_name='Sample Retrieval')
+# # Tracking with ClearML
+# from clearml import Task
+# task = Task.init(project_name='Face Makeup', task_name='Sample Retrieval')
 
 
 
